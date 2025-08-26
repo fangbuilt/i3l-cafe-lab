@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   Chip,
   Flex,
   Group,
@@ -8,6 +7,7 @@ import {
   Stack,
   Text,
 } from "@mantine/core";
+import ActionIconGroupSection from "./components/action-icon-group-section";
 
 export default function Home() {
   const fakeItems = [
@@ -41,7 +41,7 @@ export default function Home() {
                 <Text size="md">{item.name}</Text>
                 <Text size="sm">{item.price}</Text>
               </Stack>
-              <Button>Add</Button>
+              <ActionIconGroupSection />
             </Flex>
           ))}
         </Stack>
