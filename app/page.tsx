@@ -3,7 +3,7 @@ import {
   Chip,
   Flex,
   Group,
-  Space,
+  Paper,
   Stack,
   Text,
 } from "@mantine/core";
@@ -11,38 +11,44 @@ import ActionIconGroupSection from "./components/action-icon-group-section";
 
 export default function Home() {
   const fakeItems = [
-    { name: "Latte", price: 25000 },
-    { name: "Espresso", price: 20000 },
-    { name: "Cappuccino", price: 30000 },
-    { name: "Mocha", price: 35000 },
-    { name: "Americano", price: 22000 },
-    { name: "Macchiato", price: 28000 },
-    { name: "Flat White", price: 27000 },
-    { name: "Iced Coffee", price: 24000 },
-    { name: "Cold Brew", price: 26000 },
-    { name: "Frappuccino", price: 40000 },
+    { name: "Espresso on the rock", price: 10000 },
+    { name: "Americano", price: 15000 },
+    { name: "Latte Aren", price: 20000 },
+    { name: "Spanish Latte", price: 20000 },
+    { name: "Dirty Matcha", price: 24000 },
+    { name: "Cinnamon Latte", price: 22000 },
+    { name: "Sweet Tea", price: 10000 },
+    { name: "Chocolate", price: 22000 },
+    { name: "Matcha Latte", price: 24000 },
+    { name: "Ichigo Milkshake", price: 20000 },
+    { name: "Hojicha Latte", price: 24000 },
+    { name: "Jasmine Milk Tea", price: 13000 },
+    { name: "Taro Milkshake", price: 20000 },
+    { name: "Add On: Oat Milk", price: 3000 },
+    { name: "Add On: Extra Shot", price: 6000 },
   ];
   return (
     <Box>
-      <Group>
-        <Chip defaultChecked>Drinks</Chip>
-        <Chip defaultChecked>Merch</Chip>
-        <Chip defaultChecked>Consignment</Chip>
-      </Group>
-      <Space h={"lg"} />
       <Stack>
         <Text fw={"bold"} size="xl">
           Items
         </Text>
+        <Group>
+          <Chip defaultChecked>Drinks</Chip>
+          <Chip defaultChecked>Merch</Chip>
+          <Chip defaultChecked>Consignment</Chip>
+        </Group>
         <Stack>
           {fakeItems.map((item, index) => (
-            <Flex justify={"space-between"} align={"center"} key={index}>
-              <Stack gap={2}>
-                <Text size="md">{item.name}</Text>
-                <Text size="sm">{item.price}</Text>
-              </Stack>
-              <ActionIconGroupSection />
-            </Flex>
+            <Paper key={index} withBorder p={"sm"}>
+              <Flex justify={"space-between"} align={"center"}>
+                <Stack gap={2}>
+                  <Text size="md">{item.name}</Text>
+                  <Text size="sm">{item.price}</Text>
+                </Stack>
+                <ActionIconGroupSection />
+              </Flex>
+            </Paper>
           ))}
         </Stack>
       </Stack>
