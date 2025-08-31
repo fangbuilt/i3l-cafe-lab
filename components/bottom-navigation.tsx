@@ -1,14 +1,9 @@
 "use client"
 
+import { NavItem } from "@/lib/types"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import React from "react"
-
-export type NavItem = {
-  label: string
-  href: string
-  icon: React.ReactNode
-}
 
 type BottomNavigationProps = {
   items: NavItem[]
@@ -24,10 +19,10 @@ export default function BottomNavigation({ items }: BottomNavigationProps) {
           <li key={index} className="flex-1">
             <Link
               href={item.href}
-              className="flex flex-col items-center gap-1 py-2"
+              className="flex flex-col items-center py-1"
             >
               <div
-                className={`rounded p-2 transition-colors ${
+                className={`rounded-full p-1 text-3xl transition-colors ${
                   isActive(item.href)
                     ? "bg-primary text-primary-foreground"
                     : "text-muted-foreground hover:text-foreground"
@@ -35,7 +30,11 @@ export default function BottomNavigation({ items }: BottomNavigationProps) {
               >
                 {item.icon}
               </div>
-              <div className="text-xs">{item.label}</div>
+              <div
+                className={`text-xs ${isActive(item.href) ? "font-semibold" : ""}`}
+              >
+                {item.label}
+              </div>
             </Link>
           </li>
         ))}

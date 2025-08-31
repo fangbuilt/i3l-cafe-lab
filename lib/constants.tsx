@@ -1,4 +1,4 @@
-import { NavItem } from "@/components/bottom-navigation";
+import { NavItem } from "./types";
 import { BanknoteArrowDown, CreditCard, Home, Settings } from "lucide-react";
 
 export const NAV_ITEMS = [
