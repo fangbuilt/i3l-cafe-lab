@@ -37,12 +37,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="absolute top-4 left-4">
-            <ModeToggle />
-          </div>
-
-          <div className="relative mx-auto flex min-h-screen w-full max-w-sm flex-col border">
-            <main className="flex-1 p-4">{children}</main>
+          <div className="relative mx-auto flex min-h-screen w-full max-w-md flex-col border">
+            <main className="flex-1 space-y-4 p-4">
+              <div className="grid grid-cols-3 items-center">
+                <ModeToggle />
+                <h1 className="font-bold text-center">Cafe Lab</h1>
+                <p className="text-muted-foreground text-xs text-right">User: Bintang</p>
+              </div>
+              {children}
+            </main>
             <BottomNavigation items={NAV_ITEMS} />
           </div>
         </ThemeProvider>
