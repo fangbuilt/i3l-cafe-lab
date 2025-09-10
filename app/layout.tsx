@@ -5,6 +5,7 @@ import { ThemeProvider } from "../components/theme-provider"
 import { ModeToggle } from "@/components/mode-toggle"
 import BottomNavigation from "@/components/bottom-navigation"
 import { NAV_ITEMS } from "@/lib/constants"
+import { ConvexClientProvider } from "./convex-client-provider"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,24 +32,28 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <div className="relative mx-auto flex min-h-screen w-full max-w-md flex-col border">
-            <main className="flex-1 space-y-4 p-4">
-              <div className="grid grid-cols-3 items-center">
-                <ModeToggle />
-                <h1 className="font-bold text-center">Cafe Lab</h1>
-                <p className="text-muted-foreground text-xs text-right">User: Bintang</p>
-              </div>
-              {children}
-            </main>
-            <BottomNavigation items={NAV_ITEMS} />
-          </div>
-        </ThemeProvider>
+        <ConvexClientProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <div className="relative mx-auto flex min-h-screen w-full max-w-md flex-col border">
+              <main className="flex-1 space-y-4 p-4">
+                <div className="grid grid-cols-3 items-center">
+                  <ModeToggle />
+                  <h1 className="text-center font-bold">Cafe Lab</h1>
+                  <p className="text-right text-xs text-muted-foreground">
+                    User: Bintang
+                  </p>
+                </div>
+                {children}
+              </main>
+              <BottomNavigation items={NAV_ITEMS} />
+            </div>
+          </ThemeProvider>
+        </ConvexClientProvider>
       </body>
     </html>
   )

@@ -1,0 +1,366 @@
+[
+  {
+    "consignee": "Arres",
+    "item": "Mentai Dimsum 4 pcs",
+    "price": 17,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Arres",
+    "item": "Mentai Dimsum 8 pcs",
+    "price": 30,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Arres",
+    "item": "Mentai Dimsum 11 pcs",
+    "price": 35,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Arres",
+    "item": "Chilli Oil",
+    "price": 5,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "[BOTTOM LAYER] Cheesecake Slice with Brownies",
+    "price": 30,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "Choco Cadbury Cookies",
+    "price": 12,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "Original Cookies",
+    "price": 10,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "Original Cheesecake Slice",
+    "price": 26,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "[BOTTOM LAYER] Cheesecake with Biscoff Crumbles",
+    "price": 40,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "[BOTTOM LAYER] Cheesecake with Biscoff Crumbles + Biscoff Topping",
+    "price": 45,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "Choco Oreo Cheesecake",
+    "price": 35,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "Lotus Biscoff Cheesecake",
+    "price": 35,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Dita",
+    "item": "Choco Beng Beng Cheesecake",
+    "price": 35,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Rani",
+    "item": "Soes Kering",
+    "price": 27,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Rani",
+    "item": "Cheese Sticks",
+    "price": 18,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Rama",
+    "item": "Chicken Katsu Rice Bowl",
+    "price": 23,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Rama",
+    "item": "Ayam Suwir + Telur Rice Bowl",
+    "price": 28,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Rama",
+    "item": "Ayam Saus Asam Manis Rice Bowl",
+    "price": 28,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Rama",
+    "item": "Ayam Saus Mentega Rice Bowl",
+    "price": 28,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Espresso on the Rock",
+    "price": 10,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Americano",
+    "price": 15,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Latte",
+    "price": 20,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Latte Aren",
+    "price": 20,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Spanish Latte",
+    "price": 20,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Dirty Matcha",
+    "price": 24,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Cinnamon Latte",
+    "price": 22,
+    "tag": "Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Sweet Tea",
+    "price": 10,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Chocolate",
+    "price": 22,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Matcha Latte",
+    "price": 24,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Ichigo Milkshake",
+    "price": 20,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Hojicha Latte",
+    "price": 24,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Jasmine Milk Tea",
+    "price": 13,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Taro Milkshake",
+    "price": 20,
+    "tag": "Non-Coffee",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Oat Milk",
+    "price": 3,
+    "tag": "Add-on",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Extra Shot",
+    "price": 6,
+    "tag": "Add-on",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Americano",
+    "price": 15,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Latte",
+    "price": 20,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Latte Aren",
+    "price": 20,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Spanish Latte",
+    "price": 20,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Cinnamon Latte",
+    "price": 22,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Chocolate",
+    "price": 22,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "[BOTTLED] Ichigo Milkshake",
+    "price": 20,
+    "tag": "Bottled",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Pin",
+    "price": 8,
+    "tag": "Merch",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Lanyard",
+    "price": 25,
+    "tag": "Merch",
+    "active": true
+  },
+  {
+    "consignee": "Cafe Lab",
+    "item": "Sticker",
+    "price": 10,
+    "tag": "Merch",
+    "active": true
+  },
+  {
+    "consignee": "Vito",
+    "item": "Melo Bottled Fruit Tea",
+    "price": 12,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Ci Lidya",
+    "item": "Small Key Chain",
+    "price": 35,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Ci Lidya",
+    "item": "Large Key Chain",
+    "price": 40,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Ci Lidya",
+    "item": "Pen",
+    "price": 5,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Ci Lidya",
+    "item": "Pen",
+    "price": 8,
+    "tag": "Consignment",
+    "active": true
+  },
+  {
+    "consignee": "Zahwa",
+    "item": "Risol Sayur",
+    "price": 3.5,
+    "tag": "Consignment",
+    "active": false
+  },
+  {
+    "consignee": "Zahwa",
+    "item": "Pisang Goreng Madu",
+    "price": 5,
+    "tag": "Consignment",
+    "active": false
+  }
+]
